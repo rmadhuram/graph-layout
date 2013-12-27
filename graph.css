@@ -85,6 +85,13 @@ svg text {
 
 .controls p {
     font-size: 12px;
+    color: #666;
+    margin-bottom: 0px;
+}
+
+.controls .control {
+    background: #eee;
+    padding: 10px;
 }
 /*
 .controls {

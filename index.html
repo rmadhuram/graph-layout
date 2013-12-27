@@ -28,16 +28,20 @@
 <div class="container">
     <div class="header">
         <h3 class="text-muted">Graph Layout Example</h3>
-        <p>This example demonstrates on the fly graph layout with graphviz, compiled into JS using Emscriptem</p>
+        <p>This example demonstrates on-the-fly graph layout with graphviz, compiled into JS using <a href="https://github.com/kripken/emscripten">Emscripten</a></p>
         <div class="row controls">
             <div class="col-lg-6">
-                <button id="graph-refresh" type="button" class="btn btn-primary">Refresh</button>
-                <p>Generate a new random graph with 20 nodes and edges.</p>
+                <div class="control">
+                    <button id="graph-refresh" type="button" class="btn btn-primary">Refresh</button>
+                    <p>Generate a new random graph with 20 nodes and 20 edges.</p>
+                </div>
             </div>
 
             <div class="col-lg-6">
-                <button id="graph-add" type="button" class="btn btn-default">Add Node</button>
-                <p>Add a new node and edge</p>
+                <div class="control">
+                    <button id="graph-add" type="button" class="btn btn-default">Add Node</button>
+                    <p>Add a new node and edge</p>
+                </div>
             </div>
         </div>
 
