@@ -79,6 +79,8 @@ svg text {
 
 .snapshots svg {
     overflow: hidden;
+    background: #eee;
+    padding: 4px;
 }
 
 .controls p {
